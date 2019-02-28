@@ -1,1 +1,3 @@
-# KimAndreOttesen.no placeholder
+# Index placeholder
+
+kimandreottesen.no
