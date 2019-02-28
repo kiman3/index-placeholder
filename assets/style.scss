@@ -1,0 +1,168 @@
+@import 'css/normalize-min.scss';
+
+// Font stacks
+$font: Arial, sans-serif;
+
+// Main colors
+$black: #000000;
+$white: #ffffff;
+$gray: #757575;
+
+$background: $black; 
+$text: $white;
+
+// Global measurements
+$padding-main: 1em;
+$line-height: 1.25em;
+
+// Responsive widths and mixin
+$width-s: 25em;
+$width-sm: 48em;
+$width-md: 64em;
+$width-lg: 75em;
+$width-xl: 90em;
+ 
+@mixin r($width){
+
+	@if $width == s{
+		@media only screen and (min-width: $width-s) { @content; }
+	}
+
+	@else if $width == sm{
+		@media only screen and (min-width: $width-sm) { @content; }
+	}
+
+	@else if $width == md{
+		@media only screen and (min-width: $width-md) { @content; }
+	}
+
+	@else if $width == lg{
+		@media only screen and (min-width: $width-lg) { @content; }
+	}
+
+	@else if $width == xl{
+		@media only screen and (min-width: $width-xl) { @content; }
+	}
+}
+
+@mixin bullet{
+	background: $white;
+	border-radius: 8px;
+	content: "";
+	height: 8px;
+	margin-top: 7px;
+	width: 8px;
+}
+
+// Global styles
+*, *:before, *:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html{}
+
+body{
+	background: $background;
+	color: $text;
+	font: 400 1em/1.15 $font;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
+	transition: background 0.5s ease-in-out;
+
+	@include r(sm){}
+
+	@include r(md){}
+
+	@include r(lg){}
+
+	@include r(xl){}
+}
+
+	a{
+		color: $white;
+		text-decoration: none;
+		transition: color 0.3s ease-in-out;
+
+		&:active, &:focus, &:hover{
+			color: $gray;
+		}
+	}
+		
+	figure{
+		margin: 0;
+		padding: 0;
+	}
+
+		figcaption{}
+
+	h1, h2, h3, h4, h5, h6{
+		font: inherit;
+		margin: 0;
+	}
+
+	hr{
+		border: none;
+			border-bottom: 1px solid #333;
+	}
+
+	img{
+		height: auto;
+		max-width: 100%;
+	}
+
+	p{
+		margin: 0;
+		max-width: 35em;
+	}
+
+	section{}
+
+	ul, li{
+		margin: 0;
+		padding: 0;
+	}
+
+	::selection{
+		background: #bbb;
+		color: inherit;
+	}
+
+.site{
+	display: flex;
+	padding: 1em;
+	width: 100%;
+}
+
+	.header{
+		width: 50%;
+	}
+
+		.name{
+			padding: 0 1em 0 14px;
+			position: relative;		
+
+			&:before{
+				@include bullet;
+				margin-top: 5px;
+				position: absolute;
+					left: 0;
+			}
+		}
+
+	.about{
+		width: 50%;
+	}
+
+		.description{
+			margin-bottom: $line-height*2;
+		}
+
+			.title{
+				cursor: help;
+				user-select: none;
+			}

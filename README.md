@@ -1,0 +1,1 @@
+# KimAndreOttesen.no placeholder
