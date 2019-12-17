@@ -78,8 +78,9 @@ body{
 	font: 400 1em/1.25 $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+		font-feature-settings: "ss01" 1;
+	letter-spacing: -0.005em;
 	margin: 0;
-	overflow-x: hidden;
 	text-rendering: optimizeLegibility;
 	transition: background 0.5s ease-in-out;
 
@@ -129,8 +130,8 @@ body{
 	}
 
 	p{
-		display: inline;
 		margin: 0;
+		text-indent: 2em;
 	}
 
 	section{}
@@ -154,15 +155,14 @@ body{
 
 	.content{}
 
-	.name{
-		display: inline;
-	}
+		.name{
+			display: inline;
+		}
 
 		.description{
-			
+			display: inline;
 		}
 
 			.title{
 				cursor: help;
-				user-select: none;
 			}

@@ -451,8 +451,9 @@ body {
   font: 400 1em/1.25 Reformat Grotesk, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01" 1;
+  letter-spacing: -0.005em;
   margin: 0;
-  overflow-x: hidden;
   text-rendering: optimizeLegibility;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
@@ -497,8 +498,8 @@ img {
 }
 
 p {
-  display: inline;
   margin: 0;
+  text-indent: 2em;
 }
 
 ul, li {
@@ -527,10 +528,10 @@ ul, li {
   display: inline;
 }
 
+.description {
+  display: inline;
+}
+
 .title {
   cursor: help;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
