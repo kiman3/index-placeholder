@@ -14,11 +14,11 @@ include("header.php");
 			<a href="https://snohetta.com/projects/434-the-norwegian-soloists39-choir-visual-identity-and-website" target="_blank" rel="noopener referrer">web and identity for The Norwegian Soloist's Choir</a>, 
 			<a href="https://snohetta.com/projects/387-cinemateket" target="_blank" rel="noopener referrer">web and identity for Cinemateket</a>, 
 			<a href="https://snohetta.com/projects/219-melgaard-munch" target="_blank" rel="noopener referrer">exhibition design and books for Munchmuseet</a>, 
-			<a href="#" target="_blank" rel="noopener referrer">idenitity and kit FC Oslo</a>, 
-			<a href="#" target="_blank" rel="noopener referrer">web for Living the Nordic Light</a>, 
-			<a href="#" target="_blank" rel="noopener referrer">web for Dramaten</a> 
+			<a href="https://www.instagram.com/fcoslo.no/" target="_blank" rel="noopener referrer">idenitity and kit FC Oslo</a>, 
+			<a href="https://snohetta.com/project/195-living-the-nordic-light" target="_blank" rel="noopener referrer">web for Living the Nordic Light</a>, 
+			<a href="https://www.dramaten.se/" target="_blank" rel="noopener referrer">web for Dramaten</a> 
 			and 
-			<a href="#" target="_blank" rel="noopener referrer">identity for Bjarne Melgaard Enterprise</a>.
+			<a href="https://bjarnemelgaard.enterprises/" target="_blank" rel="noopener referrer">identity for Bjarne Melgaard Enterprise</a>.
 		</p>
 		<p class="other">Examiner, lecturer and guest teacher at Westerdals Oslo ACT 2015–2019.</p>
 			<p>Board member of Grafill Interactive since 2014, arranging talks and workshops.</p>
