@@ -1,5 +1,5 @@
 <?php
-$title = "Kim Andre Ottesen – Designer and coder at Snøhetta";
+$title = "Kim Andre Ottesen – Designer and coder at Snøhetta";
 $id = "index";
 include("header.php");
 ?>
@@ -9,7 +9,6 @@ include("header.php");
 		<p class="projects">Recent work: 
 			<a href="https://snohetta.com/projects/428-under-europes-first-underwater-restaurant" target="_blank" rel="noopener referrer">Web for Under</a>, 
 			<a href="https://snohetta.com/projects/471-vestre-a-website-helping-to-create-social-meeting-spaces" target="_blank" rel="noopener referrer">web for Vestre</a>, 
-			<a href="https://snohetta.com/projects/406-new-banknote-design-for-norges-bank" target="_blank" rel="noopener referrer">research/sketches for New Norwegian Banknotes</a>, 
 			<a href="https://snohetta.com/projects/383-yme-digital-retail-experience-and-visual-identity" target="_blank" rel="noopener referrer">web and identity for YME Universe</a>, 
 			<a href="http://northof.no/" target="_blank" rel="noopener referrer">web and identity for North Of</a>, 
 			<a href="https://snohetta.com/projects/434-the-norwegian-soloists39-choir-visual-identity-and-website" target="_blank" rel="noopener referrer">web and identity for The Norwegian Soloist's Choir</a>, 
