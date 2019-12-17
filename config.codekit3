@@ -56,6 +56,22 @@
 		"oS": 1,
 		"uL": 1
 		},
+	"/assets/fonts/ReformatGrotesk-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/ReformatGrotesk-Regular.woff",
+		"oF": 0
+		},
+	"/assets/fonts/ReformatGrotesk-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/ReformatGrotesk-Regular.woff2",
+		"oF": 0
+		},
 	"/assets/img/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,

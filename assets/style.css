@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Reformat Grotesk';
+  src: url("fonts/ReformatGrotesk-Regular.woff2") format("woff2"), url("fonts/ReformatGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -440,23 +448,30 @@ template {
 body {
   background: #000000;
   color: #ffffff;
-  font: 400 1em/1.15 Arial, sans-serif;
+  font: 400 1em/1.25 Reformat Grotesk, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.005em;
   margin: 0;
-  overflow-x: hidden;
   text-rendering: optimizeLegibility;
+  -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
+}
+
+@media only screen and (min-width: 48em) {
+  body {
+    font-size: 2vw;
+  }
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
-  transition: color 0.3s ease-in-out;
 }
 
 a:active, a:focus, a:hover {
   color: #757575;
+  font-feature-settings: "ss02" 1;
 }
 
 figure {
@@ -465,7 +480,9 @@ figure {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  display: inline;
   font: inherit;
+  line-height: inherit;
   margin: 0;
 }
 
@@ -481,7 +498,7 @@ img {
 
 p {
   margin: 0;
-  max-width: 35em;
+  text-indent: 2em;
 }
 
 ul, li {
@@ -500,44 +517,20 @@ ul, li {
 }
 
 .site {
+  display: -webkit-box;
   display: flex;
-  padding: 1em;
-  width: 100%;
-}
-
-.header {
-  width: 50%;
+  min-height: 100vh;
+  padding: 1rem;
 }
 
 .name {
-  padding: 0 1em 0 14px;
-  position: relative;
-}
-
-.name:before {
-  background: #ffffff;
-  border-radius: 8px;
-  content: "";
-  height: 8px;
-  margin-top: 7px;
-  width: 8px;
-  margin-top: 5px;
-  position: absolute;
-  left: 0;
-}
-
-.about {
-  width: 50%;
+  display: inline;
 }
 
 .description {
-  margin-bottom: 2.5em;
+  display: inline;
 }
 
 .title {
   cursor: help;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }

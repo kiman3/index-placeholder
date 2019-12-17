@@ -12,6 +12,4 @@
 <body class="no-js" id="<?php echo $id; ?>">
 
 <div class="site">
-	<header class="header">
-		<h1 class="name">Kim Andre Ottesen</h1>
-	</header>
+	

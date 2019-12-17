@@ -1,7 +1,16 @@
+@font-face{
+	font-family: 'Reformat Grotesk';
+	src: url('fonts/ReformatGrotesk-Regular.woff2') format('woff2'),
+	   url('fonts/ReformatGrotesk-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
 @import 'css/normalize-min.scss';
 
 // Font stacks
-$font: Arial, sans-serif;
+$font: Reformat Grotesk, Arial, sans-serif;
 
 // Main colors
 $black: #000000;
@@ -66,15 +75,17 @@ html{}
 body{
 	background: $background;
 	color: $text;
-	font: 400 1em/1.15 $font;
+	font: 400 1em/1.25 $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+	letter-spacing: -0.005em;
 	margin: 0;
-	overflow-x: hidden;
 	text-rendering: optimizeLegibility;
 	transition: background 0.5s ease-in-out;
 
-	@include r(sm){}
+	@include r(sm){
+		font-size: 2vw;
+	}
 
 	@include r(md){}
 
@@ -86,10 +97,10 @@ body{
 	a{
 		color: $white;
 		text-decoration: none;
-		transition: color 0.3s ease-in-out;
 
 		&:active, &:focus, &:hover{
 			color: $gray;
+			font-feature-settings: "ss02" 1;
 		}
 	}
 		
@@ -101,7 +112,9 @@ body{
 		figcaption{}
 
 	h1, h2, h3, h4, h5, h6{
+		display: inline;
 		font: inherit;
+		line-height: inherit;
 		margin: 0;
 	}
 
@@ -117,7 +130,7 @@ body{
 
 	p{
 		margin: 0;
-		max-width: 35em;
+		text-indent: 2em;
 	}
 
 	section{}
@@ -134,35 +147,21 @@ body{
 
 .site{
 	display: flex;
-	padding: 1em;
-	width: 100%;
+		// align-items: center;
+	min-height: 100vh;
+	padding: 1rem;
 }
 
-	.header{
-		width: 50%;
-	}
+	.content{}
 
 		.name{
-			padding: 0 1em 0 14px;
-			position: relative;		
-
-			&:before{
-				@include bullet;
-				margin-top: 5px;
-				position: absolute;
-					left: 0;
-			}
+			display: inline;
 		}
 
-	.about{
-		width: 50%;
-	}
-
 		.description{
-			margin-bottom: $line-height*2;
+			display: inline;
 		}
 
 			.title{
 				cursor: help;
-				user-select: none;
 			}
