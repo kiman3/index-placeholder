@@ -1,5 +1,5 @@
 <?php
-$title = "Kim Andre Ottesen – Designer and coder at Snøhetta";
+$title = "Kim Andre Ottesen – Designer and developer at Snøhetta";
 $id = "index";
 include("header.php");
 ?>
