@@ -448,7 +448,7 @@ template {
 body {
   background: #000000;
   color: #ffffff;
-  font: 400 1em/1.25 Reformat Grotesk, Arial, sans-serif;
+  font: 400 6vw/1.25 Reformat Grotesk, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.005em;
@@ -456,12 +456,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
-}
-
-@media only screen and (min-width: 48em) {
-  body {
-    font-size: 2vw;
-  }
 }
 
 a {

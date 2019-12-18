@@ -14,7 +14,7 @@ include("header.php");
 			<a href="https://snohetta.com/projects/434-the-norwegian-soloists39-choir-visual-identity-and-website" target="_blank" rel="noopener referrer">web and identity for The Norwegian Soloist's Choir</a>, 
 			<a href="https://snohetta.com/projects/387-cinemateket" target="_blank" rel="noopener referrer">web and identity for Cinemateket</a>, 
 			<a href="https://snohetta.com/projects/219-melgaard-munch" target="_blank" rel="noopener referrer">exhibition design and books for Munchmuseet</a>, 
-			<a href="https://www.instagram.com/fcoslo.no/" target="_blank" rel="noopener referrer">idenitity and kit FC Oslo</a>, 
+			<a href="https://www.instagram.com/fcoslo.no/" target="_blank" rel="noopener referrer">idenitity and kit for FC Oslo</a>, 
 			<a href="https://snohetta.com/project/195-living-the-nordic-light" target="_blank" rel="noopener referrer">web for Living the Nordic Light</a>, 
 			<a href="https://www.dramaten.se/" target="_blank" rel="noopener referrer">web for Dramaten</a> 
 			and 
