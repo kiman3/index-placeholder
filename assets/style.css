@@ -464,7 +464,7 @@ body {
   background: var(--background);
   color: #ffffff;
   color: var(--text);
-  font: 400 5.9vw/1.25 Reformat Grotesk, Arial, sans-serif;
+  font: 400 5.9vw/1.15 Reformat Grotesk, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   letter-spacing: -0.005em;
@@ -531,7 +531,7 @@ ul, li {
   display: flex;
   min-height: 100vh;
   padding: 1rem;
-  padding-top: 0.2rem;
+  padding-top: 0.3rem;
 }
 
 .name {
