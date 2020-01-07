@@ -1,3 +1,27 @@
+// Main colors
+$black: #000000;
+$white: #ffffff;
+$gray: #757575;
+
+$background: $black; 
+$text: $white;
+
+// Global measurements
+$padding-main: 1em;
+$line-height: 1.25em;
+
+:root{
+	--background: $white;
+	--text: $black;
+}
+
+@media screen and (prefers-color-scheme: dark) {
+	:root {
+		--background: $black;
+		--text: $white;
+	}
+}
+
 @font-face{
 	font-family: 'Reformat Grotesk';
 	src: url('fonts/ReformatGrotesk-Regular.woff2') format('woff2'),
@@ -12,17 +36,7 @@
 // Font stacks
 $font: Reformat Grotesk, Arial, sans-serif;
 
-// Main colors
-$black: #000000;
-$white: #ffffff;
-$gray: #757575;
 
-$background: $black; 
-$text: $white;
-
-// Global measurements
-$padding-main: 1em;
-$line-height: 1.25em;
 
 // Responsive widths and mixin
 $width-s: 25em;
@@ -74,7 +88,9 @@ html{}
 
 body{
 	background: $background;
+		background: var(--background);
 	color: $text;
+		color: var(--text);
 	font: 400 5.9vw/1.25 $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
@@ -93,7 +109,7 @@ body{
 }
 
 	a{
-		color: $white;
+		color: inherit;
 		text-decoration: none;
 
 		&:active, &:focus, &:hover{
@@ -148,6 +164,7 @@ body{
 		// align-items: center;
 	min-height: 100vh;
 	padding: 1rem;
+		padding-top: 0.2rem;
 }
 
 	.content{}
