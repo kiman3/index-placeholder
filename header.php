@@ -1,3 +1,7 @@
+<?php 
+$version = '1.0.2';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,8 +11,8 @@
 
 	<title><?php echo $title; ?></title>
 
-	<link rel="stylesheet" href="assets/style.css" media="screen">
-	<link rel="shortcut icon" href="assets/img/favicon.ico">
+	<link rel="stylesheet" href="assets/style.css<?php echo '?v='.$version ?>" media="screen">
+	<link rel="shortcut icon" href="favicon.ico">
 </head>
 <body class="no-js" id="<?php echo $id; ?>">
 
