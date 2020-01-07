@@ -98,13 +98,17 @@ body{
 		background: var(--background);
 	color: $text;
 		color: var(--text);
-	font: 400 5.9vw/1.15 $font;
+	font: 400 5.9vw/1.25 $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	letter-spacing: -0.005em;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 	transition: background 0.5s ease-in-out;
+
+	@include r(lg){
+		line-height: 1.2;
+	}
 }
 
 	a{
