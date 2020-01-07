@@ -17,19 +17,6 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"/assets/css/flexboxgrid.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/flexboxgrid.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
 	"/assets/css/normalize-min.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -39,19 +26,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/normalize-min.css",
-		"oF": 0,
-		"oS": 1,
-		"uL": 1
-		},
-	"/assets/css/normalize-opentype-min.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/assets/css/normalize-opentype-min.css",
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
@@ -72,58 +46,6 @@
 		"oAP": "/assets/fonts/ReformatGrotesk-Regular.woff2",
 		"oF": 0
 		},
-	"/assets/img/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/assets/img/favicon.ico",
-		"oF": 0
-		},
-	"/assets/js/jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/jquery.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/jquery.smoothState.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/jquery.smoothState.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/js-snippets-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/js-snippets-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/js-snippets.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/js-snippets-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"/assets/js/site-min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -142,17 +64,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/site-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/velocity.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/velocity.min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -179,6 +90,14 @@
 		"oF": 0,
 		"oS": 1,
 		"uL": 1
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/footer.php": {
 		"cB": 0,
