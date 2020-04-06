@@ -42,7 +42,7 @@ $line-height: 1.25em;
 
 // Font stacks
 $font: Reformat Grotesk, Arial, sans-serif;
-
+$font2: Times New Roman, Times, serif;
 
 
 // Responsive widths and mixin
@@ -98,26 +98,24 @@ body{
 		background: var(--background);
 	color: $text;
 		color: var(--text);
-	font: 400 5.9vw/1.25 $font;
+	font: 400 1em/1.15 $font;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
-	letter-spacing: -0.005em;
+	letter-spacing: -0.01em;
 	margin: 0;
 	text-rendering: optimizeLegibility;
 	transition: background 0.5s ease-in-out;
-
-	@include r(lg){
-		line-height: 1.2;
-	}
 }
 
 	a{
 		color: inherit;
+		font-family: $font2;
+		font-style: italic;
+		letter-spacing: -0.04em;
 		text-decoration: none;
 
 		&:active, &:focus, &:hover{
 			color: $gray;
-			font-feature-settings: "ss02" 1;
 		}
 	}
 		
@@ -165,8 +163,7 @@ body{
 .site{
 	display: flex;
 	min-height: 100vh;
-	padding: 1rem;
-		padding-top: 0.3rem;
+	padding: 0.3rem 1rem 0.3rem 3rem;
 }
 
 	.content{}

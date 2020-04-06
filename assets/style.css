@@ -464,30 +464,26 @@ body {
   background: var(--background);
   color: #ffffff;
   color: var(--text);
-  font: 400 5.9vw/1.25 Reformat Grotesk, Arial, sans-serif;
+  font: 400 1em/1.15 Reformat Grotesk, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.01em;
   margin: 0;
   text-rendering: optimizeLegibility;
   -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
 }
 
-@media only screen and (min-width: 75em) {
-  body {
-    line-height: 1.2;
-  }
-}
-
 a {
   color: inherit;
+  font-family: Times New Roman, Times, serif;
+  font-style: italic;
+  letter-spacing: -0.04em;
   text-decoration: none;
 }
 
 a:active, a:focus, a:hover {
   color: #757575;
-  font-feature-settings: "ss02" 1;
 }
 
 figure {
@@ -536,8 +532,7 @@ ul, li {
   display: -webkit-box;
   display: flex;
   min-height: 100vh;
-  padding: 1rem;
-  padding-top: 0.3rem;
+  padding: 0.3rem 1rem 0.3rem 3rem;
 }
 
 .name {
