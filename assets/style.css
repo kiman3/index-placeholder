@@ -470,7 +470,6 @@ body {
   letter-spacing: -0.01em;
   margin: 0;
   text-rendering: optimizeLegibility;
-  -webkit-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
 }
 
@@ -529,10 +528,15 @@ ul, li {
 }
 
 .site {
-  display: -webkit-box;
   display: flex;
+  justify-content: flex-end;
   min-height: 100vh;
   padding: 0.3rem 1rem 0.3rem 3rem;
+}
+
+.content {
+  width: 100%;
+  max-width: 35em;
 }
 
 .name {

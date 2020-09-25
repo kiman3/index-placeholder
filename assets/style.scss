@@ -162,11 +162,15 @@ body{
 
 .site{
 	display: flex;
+		justify-content: flex-end;
 	min-height: 100vh;
 	padding: 0.3rem 1rem 0.3rem 3rem;
 }
 
-	.content{}
+	.content{
+		width: 100%;
+			max-width: 35em;
+	}
 
 		.name{
 			display: inline;
