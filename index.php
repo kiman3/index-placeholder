@@ -5,7 +5,7 @@ include("header.php");
 ?>
 	<div class="content">
 		<h1 class="name">Kim Andre Ottesen.</h1>
-		<p class="description"><span class="title">Designer and developer</span> at Snøhetta.</p>
+		<p class="description"><span class="title">Senior Designer and Developer</span> at Snøhetta.</p>
 		<p class="projects">Some more or less recent work: 
 			<a href="https://snohetta.com/projects/504-bjarne-melgaard-enterprise-an-e-mail-first-visual-identity" target="_blank" rel="noopener referrer">Visual identity for Bjarne Melgaard Enterprise</a>, 
 			<a href="https://snohetta.com/projects/428-under-europes-first-underwater-restaurant" target="_blank" rel="noopener referrer">Web for Under</a>, 
