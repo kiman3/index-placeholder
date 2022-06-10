@@ -81,7 +81,6 @@
 
   #projects{
     margin-left: calc(var(--space) * 2);
-    overflow: hidden;
   }
 
     #projects-list{
