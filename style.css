@@ -96,8 +96,12 @@
     margin-left: calc(var(--space) * 4);
   }
 
-  #contact{
+  #research{
     margin-left: calc(var(--space) * 5);
+  }
+
+  #contact{
+    margin-left: calc(var(--space) * 6);
   }
 
 @media only screen and (min-width: 750px){
