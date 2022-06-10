@@ -88,7 +88,7 @@
     }
 
       #projects-list li{
-        padding-left: calc(var(--space) * 0.5);
+        padding-left: calc(var(--space));
         text-indent: calc(-1 * var(--space) * 0.5);
       }
 
@@ -99,12 +99,12 @@
 
         #projects-list a:after{
           content: "";
-          font-size: 0.5em;
+          font-size: 1.2rem;
           opacity: 0;
           position: absolute;
             top: 0;
             left: calc(var(--space) * -1);
-          transform: translate(calc(-100% - 0.5em), 0.3em);
+          transform: translate(calc(-100% - 0.5em), 0.4em);
         }
 
           @media (pointer: fine) {
