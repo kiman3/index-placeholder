@@ -89,7 +89,7 @@
 
       #projects-list li{
         padding-left: calc(var(--space));
-        text-indent: calc(var(--space) * -0.5);
+        text-indent: calc(var(--space) * -1);
       }
 
   #other{
