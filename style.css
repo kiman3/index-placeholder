@@ -92,6 +92,43 @@
         text-indent: calc(-1 * var(--space) * 0.5);
       }
 
+        #projects-list a{
+          display: inline-block;
+          position: relative;
+        }
+
+        #projects-list a:after{
+          content: "";
+          font-size: 0.5em;
+          opacity: 0;
+          position: absolute;
+            top: 0;
+            left: calc(var(--space) * -1);
+          transform: translate(calc(-100% - 0.5em), 0.3em);
+        }
+
+          @media (pointer: fine) {
+            #projects-list a:hover:after{
+              opacity: 1;
+            }
+          }
+
+          #projects-list a.heydays:after{
+            content: "Heydays";
+          }
+
+          #projects-list a.mariuskim:after{
+            content: "marius.kim";
+          }
+
+          #projects-list a.snohetta:after{
+            content: "Snøhetta";
+          }
+
+          #projects-list a.personal:after{
+            content: "Self-initiated";
+          }
+
   #other{
     margin-left: calc(var(--space) * 4);
   }
