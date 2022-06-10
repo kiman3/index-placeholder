@@ -81,20 +81,20 @@
 
   #projects{
     margin-left: calc(var(--space) * 2);
+    overflow: hidden;
   }
 
     #projects-list{
       margin-left: calc(var(--space));
     }
 
-      #projects-list li{
-        padding-left: calc(var(--space));
-        text-indent: calc(-1 * var(--space) * 0.5);
-      }
+      #projects-list li{}
 
         #projects-list a{
           display: inline-block;
+          padding-left: calc(var(--space) * 0.5);
           position: relative;
+          text-indent: calc(-1 * var(--space) * 0.5);
         }
 
         #projects-list a:after{
@@ -103,8 +103,8 @@
           opacity: 0;
           position: absolute;
             top: 0;
-            left: calc(var(--space) * -1);
-          transform: translate(calc(-100% - 0.65em), 0.4em);
+            left: 0;
+          transform: translate(calc(-100% - 0.5em), 0.4em);
         }
 
           @media (pointer: fine) {
