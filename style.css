@@ -129,16 +129,20 @@
             content: "Self-initiated";
           }
 
-  #other{
+  #awards{
     margin-left: calc(var(--space) * 4);
   }
 
-  #research{
+  #other{
     margin-left: calc(var(--space) * 5);
   }
 
-  #contact{
+  #research{
     margin-left: calc(var(--space) * 6);
+  }
+
+  #contact{
+    margin-left: calc(var(--space) * 7);
   }
 
 @media only screen and (min-width: 750px){
@@ -162,4 +166,8 @@
     background: white;
     color: black;
   }
+}
+
+.fallback{
+  font-family: 'Arial', sans-serif;
 }
