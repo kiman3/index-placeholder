@@ -41,9 +41,9 @@
     text-decoration: none;
   }
 
-  a:active, a:focus, a:hover {
-    color: dimgray;
-  }
+    a:active, a:focus, a:hover {
+      color: dimgray;
+    }
 
   figure {
     margin: 0;
@@ -74,6 +74,22 @@
 #content {
   padding: 1rem;
 }
+
+  .heydays, .mariuskim, .snohetta{
+    display: inline-block;
+    position: relative;
+  }
+
+    .heydays:after, .mariuskim:after, .snohetta:after{
+      content: "1";
+      position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .heydays:after{
+      content: "1";
+    }
 
   #description{
     margin-left: var(--space);
