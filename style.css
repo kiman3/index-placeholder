@@ -88,8 +88,8 @@
     }
 
       #projects-list li{
-        padding-left: calc(var(--space));
-        text-indent: calc(var(--space) * -1);
+        padding-left: calc(var(--space) * 0.5);
+        text-indent: calc(-1 * var(--space) * 0.5);
       }
 
   #other{
