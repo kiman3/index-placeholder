@@ -31,7 +31,6 @@
     font: 400 1.6rem/1.2 Reformat Grotesk, Arial, sans-serif;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      /* font-feature-settings: "ss01" 1; */
     letter-spacing: -0.005em;
     margin: 0;
     text-rendering: optimizeLegibility;
