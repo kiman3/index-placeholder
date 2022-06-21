@@ -44,5 +44,28 @@
     <p id="research">Research and thoughts on <a href="https://www.are.na/kim-andre-ottesen--2" target="_blank" rel="noopener noreferrer">Are.na</a>.</p>
     <p id="contact">Please get in touch via <a href="mailto:kiman@kimandreottesen.no">email</a> or&nbsp;<a href="https://twitter.com/kiman" target="_blank" rel="noopener noreferrer">Twitter</a>.</p>
   </main>
+  
+  <script src="WrapChars.min.js"></script>
+
+  <script>
+    const elem = document.getElementById('content')
+    const options = {
+      className: 'c',
+    }
+    WrapChars.wrap(elem, options)
+
+    const spans = document.querySelectorAll(".c")
+    for (let i = 0; i < spans.length; i++ ) {
+      spans[i].addEventListener("mouseover", digiAdd, false)
+    }
+
+    function digiAdd(event) {
+      event.target.style.fontFeatureSettings = '"ss02" 1'
+
+      setTimeout(function() {
+        event.target.style.fontFeatureSettings = '"ss02" 0'
+      }, 1000);
+    }
+  </script>
 </body>
 </html>
