@@ -108,7 +108,9 @@
           position: absolute;
             top: 0;
             left: 0;
+          text-align: right;
           transform: translate(calc(-100% - 0.5em), 0.4vw);
+          width: 8rem;
         }
 
           @media (hover: hover) {
