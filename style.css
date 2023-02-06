@@ -133,6 +133,10 @@
             content: "Self-initiated";
           }
 
+          .nda{
+            cursor: not-allowed;
+          }
+
   #awards{
     margin-left: calc(var(--space) * 4);
   }
