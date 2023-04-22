@@ -127,6 +127,10 @@
             content: "marius.kim";
           }
 
+          #projects-list a.openinghours:after{
+            content: "Opening Hours";
+          }
+
           #projects-list a.snohetta:after{
             content: "Snøhetta";
           }
